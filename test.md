@@ -1,3 +1,4 @@
+'''python
 def wordPatternMatch(pattern: str, s: str) -> bool:
     def backtrack(p_index, s_index, mapping, used):
         # Base case: both pattern and string are fully matched
@@ -44,3 +45,4 @@ def wordPatternMatch(pattern: str, s: str) -> bool:
 
     # Initial recursive call
     return backtrack(0, 0, {}, set())
+'''
